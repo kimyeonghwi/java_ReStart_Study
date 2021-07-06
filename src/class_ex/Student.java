@@ -1,3 +1,5 @@
+package class_ex;
+
 public class Student {
 
    private String student_Name ;

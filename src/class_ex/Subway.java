@@ -1,3 +1,5 @@
+package class_ex;
+
 public class Subway {
 
     int subwayLine, passengerCount , money;

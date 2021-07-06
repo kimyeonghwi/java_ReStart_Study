@@ -1,3 +1,5 @@
+package class_ex;
+
 public class Take {
 
     public static void main(String[] args) {

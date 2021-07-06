@@ -1,3 +1,5 @@
+package class_ex;
+
 public class Bus {
     int busNumber, passengerCount , money;
 

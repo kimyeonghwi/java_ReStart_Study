@@ -1,3 +1,5 @@
+package class_ex;
+
 public class Taxi {
     String name;
     int money, today_Customer_Count;
