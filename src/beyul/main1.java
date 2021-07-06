@@ -86,14 +86,12 @@ public class main1 {
             b1[i].showInfo();
         }
 
-
         //for - each문
         String[] asd = {"a" ,"b","c"};
         // asd의 각 요소가 sss에 들어가면서 출력한다.
         for (String sss : asd){
             System.out.println(sss);
         }
-
 
     }
 }
