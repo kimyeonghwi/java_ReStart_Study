@@ -11,6 +11,11 @@ public class Student {
         this.grade = grade;
     }
 
+    public void buyCoffee(Cafe cafe , int price){
+        cafe.buy(price);
+        money -= price;
+    }
+
     public void takeBus(Bus bus){
         bus.take(1000);
         money -= 1000;

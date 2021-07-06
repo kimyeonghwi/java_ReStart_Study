@@ -23,5 +23,21 @@ public class Take {
         studentJang.showInfo();
         taxi.showInfo();
 
+
+        //여기부터가 카페로 실습한 구역임.
+
+        Student student2 = new Student("Mulok" , 10000, 1);
+        Student student1 = new Student("Mulok" , 10000, 1);
+        Cafe star = new Cafe("starCafe" , 4000);
+        Cafe kong = new Cafe("CongCafe" , 4500);
+
+        student1.buyCoffee(star,star.getPrice());
+        student1.showInfo();
+        star.showInfo();
+
+        student2.buyCoffee(kong, kong.getPrice());
+        student2.showInfo();
+        kong.showInfo();
+
     }
 }
