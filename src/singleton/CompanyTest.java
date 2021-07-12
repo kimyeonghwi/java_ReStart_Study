@@ -14,5 +14,6 @@ public class CompanyTest {
         System.out.println("차량 번호"+bMW.getCar_Id()+"차량이름"+bMW.getCar_name());
 
 
+
     }
 }
